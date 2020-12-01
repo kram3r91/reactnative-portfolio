@@ -9,6 +9,11 @@ import {
 import { StatusBar } from 'expo-status-bar';
 import styled from 'styled-components/native'
 
+import Home from './src/pages/HomePage';
+import About from './src/pages/AboutPage';
+import Portfolio from './src/pages/PortfolioPage';
+import Contact from './src/pages/ContactPage';
+
 export default function App() {
   return (
     <View>
